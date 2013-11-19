@@ -1,0 +1,506 @@
+/* What we do
+=====================================================*/
+
+.what {
+    text-align: center;
+}
+.what-header {
+    color: #8B8F90;
+    /*font: 40px 'BebasRegular',Arial,sans-serif;*/
+  	font: 40px 'aw-conqueror-carved-one',sans-serif;
+    font-size: 4rem;
+    margin: 90px 0 30px;
+    text-align: center;
+    word-spacing: 7px;
+}
+@media only screen and (min-width : 1270px) {
+    .what li {
+        background: url("images/heroes_1280px.png") no-repeat scroll -24px 0px transparent;
+    }
+}
+.what li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 270px;
+    text-align: center;
+    width: 363px;
+}
+.what li:first-child {
+    margin-left: 0;
+}
+li.html5 {
+    background-position: -430px 0;
+}
+li.response {
+    background-position: -838px 0;
+}
+.what h3 {
+    letter-spacing: -1px;
+    line-height: 1.2;
+}
+.what span {
+    color: #444444;
+    display: block;
+    font-size: 18px;
+    font-size: 1.8rem;
+}
+
+/* Process
+=====================================================*/
+
+.content-box {
+    width: 33.3%;
+    float: left;	
+}
+.circle {
+    display:block;
+    margin: 40px auto;
+    text-align:center;
+    background-color:#a7d0d4;
+    height:200px;
+    width:200px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    letter-spacing: -2px;
+    line-height: 200px;
+    color: #FFF;
+    font-size: 53px;
+    font-size: 5.3rem;
+}
+
+/* Responsive
+=====================================================*/
+
+.responsive ul {
+    margin: 0 30px 20px;	
+}
+.responsive li {
+    margin-bottom: 10px;	
+}
+.responsive img {
+    float: right;	
+    margin: 0 30px;
+}
+
+/* Case Studies
+=====================================================*/
+
+.case-studies li {
+    border-bottom: 1px solid #F6F6F6;
+    display: inline-block;
+    padding-bottom: 30px;
+    width: 42.5%;
+    margin: 0 3.5%;
+    vertical-align: top;
+}
+.case-studies img {
+    background: #FAFAFA;
+    border: 1px solid #F1F1F1;
+    height: auto;
+    padding: 10px;
+    width: 100%;
+}
+.case-studies li h3 {
+    margin: 30px 0 5px;
+    word-spacing: 5px;
+}
+.case-studies li p {
+    margin: 0 0 20px;
+}
+.technologies li {
+  background: #CCC;
+  width: 40px;
+  text-indent: -9999em;
+  height: 40px;
+  border: none;
+  border-radius: 100%;
+  margin: 5px 5px 5px 0;
+}
+/* Cost Calculator - Based on work by www.speakingofcode.com
+=====================================================*/
+
+#total {
+    font-size: 12pt;
+}
+#price, #priceb, #pricec, #priced, #pricee, #pricef, #pricez {
+    text-align: right;
+    width: 40px;
+}
+#quoteme input {
+    background: transparent;
+    font: inherit;
+    border: 0px solid #fff;
+    margin-bottom: 34px;
+}
+.inputname {
+    width: 88%;
+}
+#quoteme label {
+    float: left;
+    display: block;
+    padding-top: 13px;
+    color: #fff;
+    font-family: Georgia;
+    width: 80%;
+}
+.contenta {
+    float: left;
+    width: 65%;
+    text-align: left;
+    font-size: 12pt;
+}
+.contentb {
+    float: left;
+    width: 31%;
+}
+.pricepara {
+    text-align: right; 
+    font-size: 14pt;
+    width: 80%
+}
+.pricepara #totalprice {
+    padding-top: 0px;
+    margin-top: 0px;
+    border: 0px solid #000;
+    font-size: 14pt;
+    font-weight: bold;
+}
+#total, #totalhours {
+    width: 97px;
+    border: 0px solid #000;
+    background: transparent;
+    font-size: 2em;
+    color: #7FAEAB;
+    margin-top: .45em;
+    -webkit-text-fill-color:#7FAEAB;
+}
+.label {
+    float: left;
+    line-height: 2.5em;
+    width: 150px;
+    margin: 1em 1em 1em 6em;
+}
+.value {
+    float: left;
+}
+#quoteme {
+    width: 100%;
+    display: block;
+    clear: both;
+    padding: 30px 10% 10px 10%;
+}
+.ui-slider-handle.ui-state-default.ui-corner-all {
+    background: #7FAEAB;
+}
+#slider, #sliderb, #sliderc, #sliderd, #slidere {
+    background: #D5D5D5;   
+}
+input#submitbtn {
+    display: block;
+    width: 200px;
+    height: 38px;
+    clear: both;
+    background: #70D1B2;
+    color: white;
+    font-size: 14pt;
+    border-radius: 3px;
+    -webkit-appearance: none; 
+}
+#quoteme p {
+    margin: 0
+}
+.disclaimer {
+    clear: both;
+    margin: 0 1em 1em 5em;
+}
+
+
+/* Contact Form
+=====================================================*/
+
+.contactForm {
+    margin: 0 30px 20px;
+}
+.email p {
+    font-size: 15px;
+    padding: 0 0 10px 0;
+    margin: 0;
+}
+.email input, .email textarea {
+    font-family: Arial;
+    font-size: 15px;
+    margin: 0 0 20px 0;
+}
+.email input {
+    background: #f5f5f5;
+    padding: 5px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+.email textarea {
+    background: #f5f5f5;
+    padding: 5px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    width: 100%;
+    height: 169px;
+}
+.email input.send {
+    color: #fff;
+    background: #70D1B2;
+    border: #000;
+    padding: 10px 25px 10px 25px;
+  	float: left;
+	clear: both;
+    cursor: pointer;
+    -webkit-appearance: none; 
+}
+.required {
+    color: #ED5656
+}
+/* CAPTCHA
+=====================================================*/
+#recaptcha_table td {
+	display: table-cell;
+}
+.recaptchatable {
+	border: 0!important;
+}
+#recaptcha_image {
+	margin-bottom: 1em;
+}
+#recaptcha_widget a {
+	border-bottom: 0;
+}
+#recaptcha_response_field, div.recaptcha_reload, div.recaptcha_only_if_image, div.recaptcha_only_if_audio, div.recaptcha_help {
+	float: left;
+  	margin-right: 5px;
+}
+/* Twitter Feed
+=====================================================*/
+
+#twitter-feed {
+    padding: 8px 10px;
+}
+#twitter-feed h2 {
+    color: #5F5F5F;
+    margin: 0px;
+    padding: 9px 0px;
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-weight: lighter;
+}
+.twitter-article, .loading-container {
+    width: 88%;
+    border-top: 1px dotted #CCC;
+    padding: 20px 4%;
+    clear: both;
+}
+.loading-container {
+    padding: 16px 0px;
+    text-align: center;
+}
+.twitter-pic {
+    float: left;
+}
+.twitter-pic img {
+    float: left;
+    border-radius: 7px;
+    margin: 4px 16px 10px 0;
+}
+.twitter-text a, h1 a {
+    border-bottom: 0;
+}
+.tweet-time {
+    font-size: 10px;
+    color: #878787;
+    float: right;
+}
+.backlink {
+    font-size: 11px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+.backlink a {
+    color: #aaa;
+}
+.twitter-follow-button.twitter-follow-button {
+    float: right;
+    margin: 38px 20px 20px 0px;
+}
+
+/* Case Study Pages (with previews)
+=====================================================*/
+/* Back Button */
+a.back-btn {
+    background: #6D9390;
+    color: #FFFFFF;
+    height: 80px;
+    left: 0;
+    position: fixed;
+    top: 10px;
+    width: 120px;
+    border: none;
+    text-transform: uppercase;
+}
+.hero {
+    background: url("/wsh/wp-content/themes/blankslate/images/hero.png") no-repeat 28px 12px #7FAEAB;
+    float: right;
+    height: 100%;
+    position: relative;
+    width: 100px;
+    line-height: 132px;
+    text-align: center;
+}
+.hero:after {
+    border: 15px solid transparent;
+    border: 15px solid rgba(0,0,0,0);
+    border-right: 15px solid #7FAEAB;
+    content: "";
+    left: -30px;
+    position: absolute;
+    top: 24px;
+}
+/* Case Studies Top portion */
+.cs {
+    border-top: 3px solid #777;
+}
+.desktop h3, .tabs h3 {
+    display: block;
+    color: #808080;
+    background: #F2F2F2;
+    padding: 15px 30px;
+    margin: 0;
+}
+h3 span {
+    color: #00A99D;
+}
+.cs p {
+    margin-top: 15px;
+}
+a.btn {
+    display: block;
+    background-color: #70D1B2;
+    padding: 15px;
+    color: #FFF;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+}
+.case-img, .case-copy {
+    float: left;
+    width: 45%;
+    margin: 0 2.5%;
+}
+.case-img img {
+    display: block;
+    height: auto;
+    margin: 15px auto;
+    max-width: 474px;
+    width: 100%;
+}
+/* Case Studies Tab preview section */
+.cs_prev_mob {
+    display:none;
+}
+.cs_prev_mob p {
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+}
+.tabs li {
+    display: block;
+    float: left;
+    margin-right: 20px;
+    background: #F2F2F2;
+    cursor: pointer;
+}
+.cs .on h3 {
+    background: #FFF; 
+}
+.cs_prev_bg {
+    background: #FFF;
+    padding: 30px 0px;
+    clear: both;
+}
+.cs_phone {
+    width: 384px;
+    height: 806px;
+    margin: 30px auto;
+    position: relative;
+    background: url("images/iphone5.png") no-repeat transparent;    
+}
+.phoneframe {
+    position: absolute;
+    top: 138px;
+    left: 34px;
+}
+.cs_tablet {
+    display: none;
+    width: 1002px;
+    height: 1301px;
+    margin: 30px auto;
+    position: relative;
+    background: url("images/iPad.png") no-repeat transparent;   
+}
+.tabletframe {
+    position: absolute;
+    top: 125px;
+    left: 117px;
+}
+
+/* Legal & Privacy Pages
+=====================================================*/
+.page {
+  border-top: 3px solid #777;
+  }
+
+.termsofuse {
+    margin: 0 50px;
+}
+ol.termsofuse > li {
+    font-weight: bold;
+    list-style: decimal outside none;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+}
+ol.termsofuse li {
+    overflow: visible;
+}
+ol.termsofuse ol li {
+    font-weight: normal;
+    list-style: lower-alpha outside none;
+    margin: 0 0 0 20px;
+    text-transform: none;
+}
+ol.termsofuse li {
+    overflow: visible;
+}
+ol.termsofuse ul li {
+    list-style: lower-roman outside none;
+}
+ol.termsofuse ol li ol li {
+    list-style: lower-roman outside none;
+}
+ol.termsofuse ol li ol li ol li {
+    list-style: disc;
+}
+.legal ul {
+    list-style: disc outside none;
+    margin-bottom: 20px;
+    margin-left: 60px;
+}
+/* 404 Page
+=====================================================*/
+.responsiveImage {
+    width: 100%;
+    max-width: 418px;
+    margin: 5em auto;
+    display: block;
+    height: auto;
+}
+.error .global-width {
+    text-align: center;
+}
+

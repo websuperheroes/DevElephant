@@ -1,0 +1,39 @@
+.logo {
+    color: #FFFFFF;
+    display: none;
+    float: left;
+    font: 24px/60px 'BebasRegular',Arial,sans-serif;
+    margin-left: 30px;
+    border: none;
+    background: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+}
+@media only screen and (min-width : 1025px) {
+    header {
+        height: 534px;
+        background: url(images/header_clean-01.png) center 0 repeat-x #FFF;
+    }
+}
+h1 {
+    color: #FFFFFF;
+    font: 56px 'BebasRegular',Arial,sans-serif;
+    letter-spacing: 0;
+    padding-top: 79px;
+    text-align: center;
+    text-shadow: 5px 5px 1px #8ABBB8;
+    word-spacing: 14px;
+}
+header h2 {
+    background: url("images/ribbon_top.png") no-repeat scroll center bottom transparent;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-size: 1.7rem;
+    height: 37px;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 2px;
+}

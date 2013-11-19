@@ -1,0 +1,14 @@
+%group {
+  content:' ';
+  display:table;
+}
+.group {
+  *zoom:1;
+  &:before {
+    @extend %group;
+  }
+  &:after {
+    @extend %group;
+    clear:both;
+  }
+}
