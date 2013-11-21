@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Dev Elephant</title>
-	<link rel="stylesheet" type="text/css" href="css/core.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.min.css" media="screen">
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
@@ -28,7 +28,7 @@
 					<li>
 				</ul>
 			</nav>
-		</header>
+			<div class="logo"></div>		</header>
 	</div>
 	<div class="content-wrapper">
 		<main class="global-width">
@@ -49,7 +49,7 @@
                 </fieldset>
                 <fieldset>
                 	<legend><span class="h2">To do</span></legend>
-                        <ul>
+                        <ul class="project-list">
                             <li>
                                 <div class="label">
                                     <label for="Item1">Item 1</label>
@@ -59,39 +59,52 @@
                                 </div>
                                 <ul class="sub">
                                 	<li>
-	                                	<li><a href="#">Settings</a>
+                                		<a  class="icon-cog" href="#"><span>Settings</span></a>
+	                                	<ul>
+		                                	<li><a href="#" title="Completed Item">Complete!</a></li>
+											<li><a href="#" title="Edit item Name">Edit Name</a></li>
+											<li><a href="#" title="Delete Item">Delete</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li>
+                                <div class="label">
+                                    <label for="Item2">Item 2</label>
+                                </div>
+                                <div class="value">
+                                    <input data-val="true" name="Item2" type="text" value="Compile Somethin" />
+                                </div>
+                                <ul class="sub">
+                                	<li>
+                                		<a class="icon-cog" href="#"><span>Settings</span></a>
+	                                	<ul>
+		                                	<li><a href="#" title="Completed Item">Complete!</a></li>
+											<li><a href="#" title="Edit item Name">Edit Name</a></li>
+											<li><a href="#" title="Delete Item">Delete</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li>
+                                <div class="label">
+                                    <label for="Item3">Item 3</label>
+                                </div>
+                                <div class="value">
+                                    <input data-val="true" name="Item3" type="text" value="Minify CSS" />
+                                </div>
+                                <ul class="sub">
+                                	<li>
+                                		<a class="icon-cog" href="#"><span>Settings</span></a>
 	                                	<ul>
 		                                	<li><a href="#" title="Completed Item">Complete!</a></li>
 											<li><a href="#" title="Edit item Name">Edit Name</a></li>
 											<li><a href="#" title="Delete Iteam">Delete</a></li>
 										</ul>
-                            </li>
-                            <li>
-                                <div class="label">
-                                    <label for="Item2">Item 2</label>
-                                </div>
-                                <div class="value">
-                                    <input data-val="true" name="Item2" type="text" value="Minify JS" />
-                                </div>
-                                <ul class="sub">
-                                	<li><a href="#" title="Completed Item">Complete!</a></li>
-									<li><a href="#" title="Edit item Name">Edit Name</a></li>
-									<li><a href="#" title="Delete Iteam">Delete</a></li>
+									</li>
 								</ul>
-                            </li>
-                            <li>
-                                <div class="label">
-                                    <label for="Item3">Item 3</label>
-                                </div>
-                                <div class="value">
-                                    <input data-val="true" name="Project2" type="text" value="Minify CSS" />
-                                </div>
-                                <ul class="sub">
-                                	<li><a href="#" title="Completed Item">Complete!</a></li>
-									<li><a href="#" title="Edit item Name">Edit Name</a></li>
-									<li><a href="#" title="Delete Iteam">Delete</a></li>
-								</ul>
-                            </li>                            
+							</li>
+                                             
                         </ul>
                 </fieldset>						
 		</main>
@@ -113,8 +126,7 @@
 	                                <a href="#" class="icon-btn" title="Add Item">Add Item</a>
 	                            </li>
 	                        </ul>
-						</li>
-						<li><a href="#" title="Save project">Save</a></li>
+						</li><li><a href="#" title="Save project">Save</a></li>
 					</ul>
 				</fieldset>
 			</form>

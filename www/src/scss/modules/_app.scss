@@ -1,0 +1,23 @@
+.sub {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+.sub a {
+	color: #CCC;
+}
+.sub span {
+	text-indent: -999em;
+	display: block;
+}
+.sub ul {
+	position: absolute;
+	left: -9999em;
+	background: #333;
+	padding: 5px;
+	z-index: 1;
+	width: 130px;
+}
+.sub:hover ul {
+	left: -105px;
+}
