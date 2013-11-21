@@ -1,0 +1,25 @@
+nav {
+	position: absolute;
+	top: 0;
+	left: 0px;
+}
+
+.menu-link {
+	position: relative;
+	text-align: center;
+	width: 50px;
+}
+.menu-link ul {
+	position: absolute;
+	left: -9999em;
+	top: 40px;
+	background: #222;
+	width: 150px;
+	padding: 8px;
+}
+.menu-link:hover {
+	background: #333;
+}
+.menu-link:hover ul {
+	left: -2px;
+}

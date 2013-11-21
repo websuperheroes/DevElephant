@@ -1,2 +1,13 @@
 /www/node_modules/*
 /www/grunt-dev.command
+
+/develephant.sublime-project
+/develephant.sublime-workspace
+/www/.sass-cache/3dbc04bfe69e17227dce1ea509504a618e9d3d3e/
+/www/.sass-cache/535e3c385b6c8541f697c34c8c74c45c48a576e9/
+/www/.sass-cache/801cfac9e68f70b430db16eac24b394c40640bbe/
+/www/.sass-cache/8af851f26d43817d4ae987a66271a151cfc7cfc6/
+/www/.sass-cache/e5ac0bc0e3b53a67aff152936f9e6ff32e0553ea/
+
+/www/app/assets/css/style.min.css
+/www/app/assets/js/scripts.min.js

@@ -1,0 +1,21 @@
+.head-wrap {
+	height: 40px;
+	background: #FF6B6B;
+}
+header {
+	position: relative;
+}
+.logo {
+	position: absolute;
+	top: 0;
+	right: 6px;
+	color: #FFF;
+	background: url(../images/develephant_logo.png) no-repeat;
+	width: 91px;
+	height: 105px;
+	text-indent: -999em;
+}
+header a {
+	color: #FFF;
+	text-decoration: none;
+}
