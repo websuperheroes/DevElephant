@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Dev Elephant</title>
-	<link rel="stylesheet" type="text/css" href="css/core.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.min.css" media="screen">
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
@@ -14,59 +14,145 @@
 
 <div class="outer-wrapper">
 	<div class="head-wrap">
-		<header>
+		<header class="global-width">
 			<h1>Dev Elephant</h1>
 			<nav>
-				<ul class="menu">
-					<li><a href="#" title="Add Project">Add Project</a></li>
-					<li><a href="#" title="Account Settings">Account Settings</a></li>
-					<li><a href="#" title="Log Out">Log Out</a></li>
+				<ul>
+					<li class="menu-link">
+						<a href="#" class="icon-menu"><span>Menu</span></a>
+							<ul class="menu">
+								<li><a href="#" title="Add Project">Add Project</a></li>
+								<li><a href="#" title="Account Settings">Account Settings</a></li>
+								<li><a href="#" title="Log Out">Log Out</a></li>
+							</ul>
+					<li>
 				</ul>
 			</nav>
+			<div class="logo"></div>
 		</header>
 	</div>
 	<div class="content-wrapper">
-		<main>
-			<h2>Active Projects</h2>
-			<a href="#" class="icon-btn" title="Create a new project">Add Project</a>
-				<ul class="projects active">
-					<li><a href="#" title="Project Name">Balls of Fury</a>
-						<ul class="sub">
-							<li><a href="#" title="Edit Project Name">Edit Name</a></li>
-							<li><a href="#" title="Delete Project">Delete</a></li>
-						</ul>
-					</li>
-					<li><a href="#" title="Project Name">Mr Sexy Time</a>
-						<ul class="sub">
-							<li><a href="#" title="Edit Project Name">Edit Name</a></li>
-							<li><a href="#" title="Delete Project">Delete</a></li>
-						</ul>
-					</li>
-					<li><a href="#" title="Project Name">Web Superheroes</a>
-						<ul class="sub">
-							<li><a href="#" title="Edit Project Name">Edit Name</a></li>
-							<li><a href="#" title="Delete Project">Delete</a></li>
-						</ul>
-					</li>
-				</ul>
-
-
-			<h2>Complete Projects</h2>
-			
-				<ul class="projects complete">
-					<li><a href="#" title="Project Name">Alan Alan ALAN!</a>
-						<ul class="sub">
-							<li><a href="#" title="Edit Project Name">Edit Name</a></li>
-							<li><a href="#" title="Delete Project">Delete</a></li>
-						</ul>
-					</li>
-					<li><a href="#" title="Project Name">Vanessa Jordan</a>
-						<ul class="sub">
-							<li><a href="#" title="Edit Project Name">Edit Name</a></li>
-							<li><a href="#" title="Delete Project">Delete</a></li>
-						</ul>
-					</li>
-				</ul>			
+		<main class="global-width">
+			<form action="" autocomplete="off" method="post">        
+                <fieldset class="to-do">
+                	<legend><span class="h2">Active Projects</span></legend>
+                        <ul class="project-list">
+                            <li>
+                                <div class="label">
+                                    <label for="Project1">Project 1</label>
+                                </div>
+                                <div class="value">
+                                    <input data-val="true" name="project1" type="text" disabled="disabled" value="Chefs on Location" />
+                                </div>
+                                <ul class="sub">
+                                	<li>
+                                		<a class="icon-cog" href="#"><span>Settings</span></a>
+	                                	<ul>
+		                                	<li><a href="#" title="Edit Project Name">Edit Name</a></li>
+											<li><a href="#" title="Delete project">Delete</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li>
+                                <div class="label">
+                                    <label for="project2">project 2</label>
+                                </div>
+                                <div class="value">
+                                    <input data-val="true" name="project2" disabled="disabled" type="text" value="Tatyanna" />
+                                </div>
+                                <ul class="sub">
+                                	<li>
+                                		<a class="icon-cog" href="#"><span>Settings</span></a>
+	                                	<ul>
+											<li><a href="#" title="Edit project Name">Edit Name</a></li>
+											<li><a href="#" title="Delete project">Delete</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li>
+                                <div class="label">
+                                    <label for="project3">project 3</label>
+                                </div>
+                                <div class="value">
+                                    <input data-val="true" name="project3" type="text" value="Web Superheroes" disabled="disabled" />
+                                </div>
+                                <ul class="sub">
+                                	<li>
+                                		<a class="icon-cog" href="#"><span>Settings</span></a>
+	                                	<ul>
+		                                	<li><a href="#" title="Completed project">Complete!</a></li>
+											<li><a href="#" title="Edit project Name">Edit Name</a></li>
+											<li><a href="#" title="Delete Iteam">Delete</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+                                             
+                        </ul>
+                </fieldset>
+                <fieldset class="completed">
+                	<legend><span class="h2">Completed</span></legend>
+                        <ul class="project-list">
+                            <li>
+                                <div class="label">
+                                    <label for="project4">project 4</label>
+                                </div>
+                                <div class="value">
+                                    <input data-val="true" name="project4" type="text" disabled="disabled" value="Alan, Alan, ALAN!" />
+                                </div>
+                                <ul class="sub">
+                                	<li>
+                                		<a class="icon-cog" href="#"><span>Settings</span></a>
+	                                	<ul>
+		                                	<li><a href="#" title="Return project to To Do list">Mark Incomplete</a></li>
+											<li><a href="#" title="Edit project Name">Edit Name</a></li>
+											<li><a href="#" title="Delete project">Delete</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li>
+                                <div class="label">
+                                    <label for="project5">project 5</label>
+                                </div>
+                                <div class="value">
+                                    <input data-val="true" name="project2" disabled="disabled" type="text" value="Berner Designs" />
+                                </div>
+                                <ul class="sub">
+                                	<li>
+                                		<a class="icon-cog" href="#"><span>Settings</span></a>
+	                                	<ul>
+		                                	<li><a href="#" title="Return project to To Do list">Mark Incomplete</a></li>
+											<li><a href="#" title="Edit project Name">Edit Name</a></li>
+											<li><a href="#" title="Delete project">Delete</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li>
+                                <div class="label">
+                                    <label for="project6">project 6</label>
+                                </div>
+                                <div class="value">
+                                    <input data-val="true" name="project6" type="text" value="Troglors Fury" disabled="disabled" />
+                                </div>
+                                <ul class="sub">
+                                	<li>
+                                		<a class="icon-cog" href="#"><span>Settings</span></a>
+	                                	<ul>
+		                                	<li><a href="#" title="Return project to To Do list">Mark Incomplete</a></li>
+											<li><a href="#" title="Edit project Name">Edit Name</a></li>
+											<li><a href="#" title="Delete Iteam">Delete</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+                                             
+                        </ul>
+                </fieldset>						
+						
 		</main>
 	</div>
 	<div class="footer-wrapper">

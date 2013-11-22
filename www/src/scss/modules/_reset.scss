@@ -136,3 +136,6 @@ table {
   text-rendering:optimizeLegibility;
   @include vendor(box-sizing, border-box);
 }
+.hidden {
+  display: none;
+}

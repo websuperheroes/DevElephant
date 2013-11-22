@@ -1,6 +1,6 @@
 .sub {
 	position: absolute;
-	top: 5px;
+	top: 4px;
 	right: 5px;
 }
 .sub a {
@@ -20,4 +20,12 @@
 }
 .sub:hover ul {
 	left: -105px;
+}
+.to-do input {
+	border: none;
+	border-left: 5px solid #e74c3c;
+}
+.completed input {
+	border: none;
+	border-left: 5px solid #2ecc71;
 }

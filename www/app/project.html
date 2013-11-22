@@ -28,7 +28,8 @@
 					<li>
 				</ul>
 			</nav>
-			<div class="logo"></div>		</header>
+			<div class="logo"></div>
+		</header>
 	</div>
 	<div class="content-wrapper">
 		<main class="global-width">
@@ -37,17 +38,17 @@
                 	<legend><span class="hidden">Project Details</span></legend>
                         <ul>
                             <li>
-                                <div class="label">
+                                <div class="label hidden">
                                     <label for="ProjectName">Project Name:</label>
                                 </div>
                                 <div class="value">
-                                    <input data-val="true" name="ProjectName" type="text" value="" />
+                                    <input data-val="true" name="ProjectName" disabled="disabled" type="text" value="Enter Project Name" />
                                 </div>
                             </li>
 
                         </ul>
                 </fieldset>
-                <fieldset>
+                <fieldset class="to-do">
                 	<legend><span class="h2">To do</span></legend>
                         <ul class="project-list">
                             <li>
@@ -55,11 +56,11 @@
                                     <label for="Item1">Item 1</label>
                                 </div>
                                 <div class="value">
-                                    <input data-val="true" name="Item1" type="text" value="Remove XYZ" />
+                                    <input data-val="true" name="Item1" type="text" disabled="disabled" value="Remove XYZ" />
                                 </div>
                                 <ul class="sub">
                                 	<li>
-                                		<a  class="icon-cog" href="#"><span>Settings</span></a>
+                                		<a class="icon-cog" href="#"><span>Settings</span></a>
 	                                	<ul>
 		                                	<li><a href="#" title="Completed Item">Complete!</a></li>
 											<li><a href="#" title="Edit item Name">Edit Name</a></li>
@@ -73,7 +74,7 @@
                                     <label for="Item2">Item 2</label>
                                 </div>
                                 <div class="value">
-                                    <input data-val="true" name="Item2" type="text" value="Compile Somethin" />
+                                    <input data-val="true" name="Item2" disabled="disabled" type="text" value="Compile Somethin" />
                                 </div>
                                 <ul class="sub">
                                 	<li>
@@ -91,7 +92,7 @@
                                     <label for="Item3">Item 3</label>
                                 </div>
                                 <div class="value">
-                                    <input data-val="true" name="Item3" type="text" value="Minify CSS" />
+                                    <input data-val="true" name="Item3" type="text" value="Minify CSS" disabled="disabled" />
                                 </div>
                                 <ul class="sub">
                                 	<li>
@@ -106,7 +107,68 @@
 							</li>
                                              
                         </ul>
+                </fieldset>
+                <fieldset class="completed">
+                	<legend><span class="h2">Completed</span></legend>
+                        <ul class="project-list">
+                            <li>
+                                <div class="label">
+                                    <label for="Item4">Item 4</label>
+                                </div>
+                                <div class="value">
+                                    <input data-val="true" name="Item4" type="text" disabled="disabled" value="Favicons" />
+                                </div>
+                                <ul class="sub">
+                                	<li>
+                                		<a class="icon-cog" href="#"><span>Settings</span></a>
+	                                	<ul>
+		                                	<li><a href="#" title="Return item to To Do list">Mark Incomplete</a></li>
+											<li><a href="#" title="Edit item Name">Edit Name</a></li>
+											<li><a href="#" title="Delete Item">Delete</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li>
+                                <div class="label">
+                                    <label for="Item5">Item 5</label>
+                                </div>
+                                <div class="value">
+                                    <input data-val="true" name="Item2" disabled="disabled" type="text" value="Apple Touch Icons" />
+                                </div>
+                                <ul class="sub">
+                                	<li>
+                                		<a class="icon-cog" href="#"><span>Settings</span></a>
+	                                	<ul>
+		                                	<li><a href="#" title="Return item to To Do list">Mark Incomplete</a></li>
+											<li><a href="#" title="Edit item Name">Edit Name</a></li>
+											<li><a href="#" title="Delete Item">Delete</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li>
+                                <div class="label">
+                                    <label for="Item6">Item 6</label>
+                                </div>
+                                <div class="value">
+                                    <input data-val="true" name="Item6" type="text" value="Another Task" disabled="disabled" />
+                                </div>
+                                <ul class="sub">
+                                	<li>
+                                		<a class="icon-cog" href="#"><span>Settings</span></a>
+	                                	<ul>
+		                                	<li><a href="#" title="Return item to To Do list">Mark Incomplete</a></li>
+											<li><a href="#" title="Edit item Name">Edit Name</a></li>
+											<li><a href="#" title="Delete Iteam">Delete</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+                                             
+                        </ul>
                 </fieldset>						
+						
 		</main>
 	</div>
 	<div class="footer-wrapper">
@@ -114,16 +176,16 @@
 			<fieldset>
 				<legend><span class="hidden">Project Options</span></legend>
 					<ul class="project-options">
-						<li><a href="#" title="Add Item">Add Item</a>
+						<li class="add-item-button"><a href="#" title="Add Item">Add Item</a>
 							<ul class="add-item">
 								<li>
-									<div class="label">
+									<div class="label hidden">
 	                                    <label for="newItem">New Item Name:</label>
 	                                </div>
 	                                <div class="value">
 	                                    <input data-val="true" name="newItem" type="text" value="Enter Item Name" />
 	                                </div>
-	                                <a href="#" class="icon-btn" title="Add Item">Add Item</a>
+	                                <a href="#" class="icon-plus" title="Add Item"><span>Add Item</span></a>
 	                            </li>
 	                        </ul>
 						</li><li><a href="#" title="Save project">Save</a></li>

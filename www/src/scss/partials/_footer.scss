@@ -24,9 +24,32 @@ footer a {
 	background: #333;
 }
 
-.add-item {
+.add-item-button ul {
 	position: absolute;
 	left: -999em;
+	width: 320px;
+	background: #444;
+	padding: 3px
+}
+.add-item-button:hover ul {
+	left: 0px;
+	top: -37px;
+
+}
+.add-item-button .value {
+	width: 282px;
+}
+.add-item .value,
+.add-item .icon-btn {
+	float: left;
+}
+.icon-plus {
+	float: left;
+	margin: 0;
+	background: #333;
+	height: 31px;
+	width: 31px;
+	line-height: 31px;
 }
 .project-options > li {
 	display: inline-block;
